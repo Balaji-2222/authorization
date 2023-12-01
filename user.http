@@ -1,0 +1,36 @@
+####
+
+
+POST http://localhost:3000/register/
+Content-Type:application/json
+
+
+{
+  "username": "Balaji_22",
+  "name": "Adam Richardd",
+  "password": "balu@2004",
+  "gender": "male",
+  "location": "Detroit"
+}
+
+####
+POST http://localhost:3000/login/
+
+Content-Type:application/json
+
+{
+
+  "username": "Balaji_22",
+  "password": "balu@2004"
+}
+
+####
+PUT http://localhost:3000/change-password/
+
+Content-Type:application/json
+
+{
+    "username" : "Balaji_22",
+    "oldPassword" : "balu@2003",
+    "newPassword" : "Bala"
+}
